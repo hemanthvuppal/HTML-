@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>acc details</title>
+</head>
+<body style="background-color:lavender;" >
+	<fieldset style="width: 50px">
+<form style="width:300px;border-radius:10px;margin:100px 500px 200px 50px;border-width: 3px;padding-left: 10px;"action=pay_done.html method="post" target="_blank" >
+<p style="color:darkblue;font-size:20px;text-align:center;font-family: cursive;"><b>Disney+ Hotstar Premium Plan</b></p><br><br>
+<label for="name"><b>Card Holder Name</b></label><br>
+<input type="text" id="name" name="hold" required autofocus><br><br>
+<label for="num"><b>Card Number</b></label><br>
+<input type="tel" id="num" name="number" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" required ><br><br>
+<label for="cvv"><b>CVV Number</b></label><br>
+<input type="password" id="cvv" name="cvvv" size="3" required><br><br>
+<label for="otp"><b>Enter OTP </b></label><br>
+<input type="number" id="otp" name="number" size="4" disabled><br><br>
+<input type="submit" value="Pay" style="background-color:black;color: whitesmoke;text-align: center;" required>
+</form>
+</fieldset>
+</body>
+</html>
